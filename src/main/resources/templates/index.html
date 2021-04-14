@@ -10,8 +10,8 @@
 
 <table class="table-rounded">
     <tr>
-        <td>Имя</td>
-        <td>Стандартная ставка</td>
+        <td>Имя </td>
+        <td>Стандартная Ставка </td>
     </tr>
     <tr th:each="p : ${persons}">
         <td><a th:href="'person/' + ${p.id}" th:text="${p.name}">!!!</a></td>

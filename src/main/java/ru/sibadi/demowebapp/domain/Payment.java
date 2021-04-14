@@ -2,6 +2,7 @@ package ru.sibadi.demowebapp.domain;
 
 import java.time.LocalDate;
 
+
 public class Payment{
 
     private LocalDate date;

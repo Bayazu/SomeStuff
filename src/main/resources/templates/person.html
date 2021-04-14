@@ -8,7 +8,7 @@
 <h1>Сотрудник</h1>
 <form method="POST" th:action="@{'/person/' + ${person.id}}">
     <label>
-        <h2>Фамилия:</h2>
+        <h2>фамилия:</h2>
         <input th:value="${person.name}" name="name">
         <h2>Зарплата:</h2>
         <input th:value="${person.salary}" name="salary">
